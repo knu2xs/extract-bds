@@ -1,0 +1,3 @@
+# Extract BDS
+
+BDS layers are interesting creatures. Frequently I want or need to extract the data from BDS layers in ArcGIS Desktop Business Analyst with a subset (less than 156) of fields visible. True, setting field visibility and exporting via the context menu is possible, but I would like a slightly more automated way to accomplish this. It does not take long to discover BDS layers will not export using the Copy Features or the Feature Class to Feature class tools. This little utlity provides a workaround. You still have to manually set your field visibility, but this is not very difficult using a saved field list. From here, using a list as input, this tool will output all the feature classes from the input BDS layers in the current map document.
